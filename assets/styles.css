@@ -88,9 +88,9 @@ a:focus-visible {
 .portrait {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1.045;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
+  object-fit: contain;
+  object-position: center top;
 }
 
 .contact-list {
